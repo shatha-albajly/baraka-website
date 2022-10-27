@@ -1,0 +1,18 @@
+.lunchpad .star-reverse {
+    top: -5%;
+    left: 0%;
+    height: 90%;
+
+}
+
+.lunchpad .dots-reverse {
+    top: 50%;
+    height: 80%;
+    left: 42%;
+
+}
+.lunchpad .companies-logos img {
+    max-width: 100px;
+    height: auto;
+
+}

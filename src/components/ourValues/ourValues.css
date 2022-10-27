@@ -1,0 +1,20 @@
+
+
+.our-values .value-card {
+    /* width: 280px; */
+    
+    max-width: 90%;
+    min-width: 30%;
+   
+    height: 200px;
+    background-color: var(--primary-white);
+    text-align: center;
+
+}
+
+.our-values .value-card img {
+    width: 80px;
+    margin:1rem 0;
+   
+
+}

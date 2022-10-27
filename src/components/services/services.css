@@ -1,0 +1,18 @@
+.services .star-reverse{
+    top: -5%;
+        left:4%;
+            height: 80%;
+
+}
+.services .dots-reverse{
+    top: 53%;
+        height: 80%;
+        left: 43%;
+
+}
+
+.services .companies-logos img{
+    max-width: 60px;
+    height: auto;
+
+}

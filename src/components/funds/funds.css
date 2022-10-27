@@ -1,0 +1,18 @@
+
+.funds .star-reverse {
+    position: absolute;
+    top: -5%;
+    left: 6%;
+    z-index: 6;
+    height: 80%;
+}
+
+.funds .dots-reverse {
+    position: absolute;
+    top: 47%;
+    left: 41%;
+    z-index: 5;
+    height: 80%;
+}
+
+

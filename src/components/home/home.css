@@ -1,0 +1,34 @@
+.home{
+    width: 80vw;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 auto ;
+
+}
+
+.title{
+    font-size: 2rem;
+
+}
+.title-text{
+    flex-basis: 60%;
+}
+.title-image{
+flex-basis: 40%;
+}
+.title-description{
+    font-size: .75rem;
+    font-weight: 400;
+    color: var(--primary-gray-90);
+    
+}
+.black-text{
+    color: var(--primary-black);
+    
+}
+
+.orange-text {
+    color: var(--primary-orange);
+}

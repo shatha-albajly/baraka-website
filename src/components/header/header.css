@@ -1,0 +1,27 @@
+.navbar,.navbar-brand {
+padding-top: 0 !important;
+padding-bottom: 0 !important;
+}
+.container{
+    max-width: 80vw;
+}
+
+.navbar-brand img{
+    height: 60px;
+}
+
+.nav-link{
+    color:var(--primary-gray-80) ;
+        font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: .7rem;
+}
+
+.nav-link:hover {
+    color: var(--primary-orange);
+  
+}
+
+.home{
+    height: 100vh;
+}
