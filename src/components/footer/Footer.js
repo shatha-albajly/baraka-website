@@ -6,7 +6,7 @@ const Footer = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <footer className="footer">
+    <footer className="footer py-4">
       <p> {t("footer")}</p>
     </footer>
   );

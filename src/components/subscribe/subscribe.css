@@ -1,4 +1,4 @@
-
+/* 
 
 .subscribe-first{
     flex-basis: 40%;
@@ -9,4 +9,17 @@
 .subscribe-second {
     flex-basis: 60%;
 
+}
+ */
+
+ .subscribe nav li{
+    font-weight: 500;
+        font-size: .8rem;
+        line-height: 120%;
+        color: var(--primary-gray-80);
+ }
+
+.footer-logo{
+    width: 200px;
+    /* width: auto; */
 }

@@ -4,8 +4,7 @@ import { useTranslation } from "react-i18next";
 import Shape1 from "./shape1.svg";
 import Shape2 from "./shape2.svg";
 import DistributionImg from "./distribution.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { InfoCircle } from "iconsax-react";
 
 const Distribution = () => {
   const { t, i18n } = useTranslation();
@@ -100,10 +99,11 @@ const Distribution = () => {
           </li>
         </ul>
         <div>
-          <div className="d-flex align-items-center">
-            <FontAwesomeIcon className="orange-opacity" icon={faCoffee} />
+          <div className="d-flex align-items-center justify-content-start ">
+            {/* <FontAwesomeIcon className="orange-opacity" icon={faCoffee} /> */}
+            <InfoCircle size="32" color="#F8870D" variant="Bulk" />
 
-            <p className="tiny-text">
+            <p className="tiny-text m-0 p-0 mx-1 fst-italic">
               We have limited the maximum ownership amount of BARAKA coins per
               person in order to avoid price manipulation and protect the
               investment value for all coi owners. Larger transactions may be

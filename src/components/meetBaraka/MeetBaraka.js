@@ -21,33 +21,68 @@ const MeetBaraka = () => {
         <p className="normal-paragraph container-60 text-center">
           {t("meet.paragraph")}
         </p>
+
         <div className=" value-first-section  ">
           <div className="row  mx-auto  justify-content-between   align-items-center ">
-            <div className=" col-md-3  col-sm-5 meet-card rounded-1 white-background  p-0 rounded-1  shadow-card  ">
-              <img src={CryptoTrading} className="float" />
-              <img src={Ellipse} className="w-100 h-100 ellipse  " />
-              <p className="w-80  card-text">{t("meet.list_1")}</p>
+            <div className=" mx-1 my-2 mx-auto col-md-3  col-sm-5 meet-card rounded-1 white-background  p-0 rounded-1  shadow-card  ">
+              <div className="w-40">
+                <img src={CryptoTrading} className="float" />
+                <img src={Ellipse} className="w-100 h-100 ellipse  " />
+              </div>
+              <div className="d-flex align-items-center justify-content-center text-center w-60 p-2 h-100 card-text">
+                <p className="m-0">{t("meet.list_1")}</p>
+              </div>
             </div>
-            {/* <div className="mx-auto col-md-3 col-sm-5  rounded-1  value-card  shadow-card mx-1 my-2  d-flex flex-column justify-content-center align-items-center ">
-              <img src={InvestmentImg} className="" />
-              <p className="w-80 card-text">{t("meet.list_2")}</p>
+
+            <div className="mx-1 my-2 mx-auto col-md-3  col-sm-5 meet-card rounded-1 white-background  p-0 rounded-1  shadow-card  ">
+              <div className="w-40">
+                <img src={InvestmentImg} className="float" />
+                <img src={Ellipse} className="w-100 h-100 ellipse  " />
+              </div>
+              <div className="d-flex align-items-center justify-content-center text-center w-60 p-2 h-100 card-text">
+                <p className="m-0">{t("meet.list_2")}</p>
+              </div>
             </div>
-            <div className="mx-auto col-md-3 col-sm-5 rounded-1 value-card  shadow-card  mx-1 my-2 d-flex flex-column justify-content-center align-items-center ">
-              <img src={PaymentSystem} className="" />
-              <p className="w-80 card-text">{t("meet.list_3")}</p>
+
+            <div className=" mx-1 my-2 mx-auto col-md-3  col-sm-5 meet-card rounded-1 white-background  p-0 rounded-1  shadow-card  ">
+              <div className="w-40">
+                <img src={PaymentSystem} className="float" />
+                <img src={Ellipse} className="w-100 h-100 ellipse  " />
+              </div>
+              <div className="d-flex align-items-center justify-content-center text-center w-60 p-2 h-100 card-text">
+                <p className="m-0">{t("meet.list_2")}</p>
+              </div>
             </div>
-            <div className="mx-auto col-md-3 col-sm-5 rounded-1 value-card  shadow-card mx-1 my-2 d-flex flex-column justify-content-center align-items-center ">
-              <img src={TradingBot} className="" />
-              <p className="w-80 card-text">{t("meet.list_4")}</p>
+
+            <div className=" mx-1 my-2 mx-auto col-md-3  col-sm-5 meet-card rounded-1 white-background  p-0 rounded-1  shadow-card  ">
+              <div className="w-40">
+                <img src={TradingBot} className="float" />
+                <img src={Ellipse} className="w-100 h-100 ellipse  " />
+              </div>
+              <div className="d-flex align-items-center justify-content-center text-center w-60 p-2 h-100 card-text">
+                <p className="m-0">{t("meet.list_2")}</p>
+              </div>
             </div>
-            <div className="mx-auto col-md-3 col-sm-5 rounded-1 value-card   shadow-card mx-1 my-2 d-flex flex-column justify-content-center align-items-center ">
-              <img src={Lending} className="" />
-              <p className="w-80 card-text">{t("meet.list_5")}</p>
+
+            <div className=" mx-1 my-2 mx-auto col-md-3  col-sm-5 meet-card rounded-1 white-background  p-0 rounded-1  shadow-card  ">
+              <div className="w-40">
+                <img src={Lending} className="float" />
+                <img src={Ellipse} className="w-100 h-100 ellipse  " />
+              </div>
+              <div className="d-flex align-items-center justify-content-center text-center w-60 p-2 h-100 card-text">
+                <p className="m-0">{t("meet.list_2")}</p>
+              </div>
             </div>
-            <div className="mx-auto col-md-3 col-sm-5 rounded-1 value-card  shadow-card  mx-1 my-2 d-flex flex-column justify-content-center align-items-center ">
-              <img src={Taawuniya} className="" />
-              <p className="w-80 card-text">{t("meet.list_6")}</p>
-            </div> */}
+
+            <div className=" mx-1 my-2 mx-auto col-md-3  col-sm-5 meet-card rounded-1 white-background  p-0 rounded-1  shadow-card  ">
+              <div className="w-40">
+                <img src={Taawuniya} className="float" />
+                <img src={Ellipse} className="w-100 h-100 ellipse  " />
+              </div>
+              <div className="d-flex align-items-center justify-content-center text-center w-60 p-2 h-100 card-text">
+                <p className="m-0">{t("meet.list_2")}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
