@@ -14,3 +14,7 @@ line-height: 120% !important;
 color: var(--primary-gray-90) !important
 
 }
+
+.team  .normal-paragraph {
+    margin-top: 0;
+}

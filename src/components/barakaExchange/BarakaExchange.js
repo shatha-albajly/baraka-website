@@ -5,6 +5,10 @@ import Exchange1 from "./exchange1.png";
 import Exchange2 from "./exchange2.png";
 import Exchange3 from "./exchange3.png";
 
+import Exchange1_AR from "./exchange1_AR.png";
+import Exchange2_AR from "./exchange2_AR.png";
+import Exchange3_AR from "./exchange3_AR.png";
+
 const BarakaExchange = () => {
   const { t, i18n } = useTranslation();
 
@@ -18,18 +22,33 @@ const BarakaExchange = () => {
         <p className="normal-paragraph container-60 text-center">
           {t("exchange.paragraph")}
         </p>
+        {i18n.language === "ar" && (
+          <div className="row  mx-auto committee-cards  justify-content-between  align-items-center">
+            <div className=" col-md-3 col-sm-5 img-card mx-auto     ">
+              <img src={Exchange1_AR} className="mw-100 my-2 " />
+            </div>
+            <div className=" col-md-3 col-sm-5 mx-auto  img-card my-5  ">
+              <img src={Exchange2_AR} className="mw-100 my-2 " />
+            </div>
+            <div className=" col-md-3 col-sm-5 mx-auto img-card  ">
+              <img src={Exchange3_AR} className="mw-100 my-2  " />
+            </div>
+          </div>
+        )}
 
-        <div className="row  mx-auto committee-cards  justify-content-between  align-items-center">
-          <div className=" col-md-3 col-sm-5 img-card mx-auto     ">
-            <img src={Exchange1} className="mw-100  " />
+        {i18n.language === "en" && (
+          <div className="row  mx-auto committee-cards  justify-content-between  align-items-center">
+            <div className=" col-md-3 col-sm-5 img-card mx-auto     ">
+              <img src={Exchange1} className="mw-100  my-2 " />
+            </div>
+            <div className=" col-md-3 col-sm-5 mx-auto  img-card  ">
+              <img src={Exchange2} className="mw-100 my-2 " />
+            </div>
+            <div className=" col-md-3 col-sm-5 mx-auto img-card  ">
+              <img src={Exchange3} className="mw-100 my-2  " />
+            </div>
           </div>
-          <div className=" col-md-3 col-sm-5 mx-auto  img-card  ">
-            <img src={Exchange2} className="mw-100 " />
-          </div>
-          <div className=" col-md-3 col-sm-5 mx-auto img-card  ">
-            <img src={Exchange3} className="mw-100  " />
-          </div>
-        </div>
+        )}
       </div>
     </section>
   );

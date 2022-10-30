@@ -12,7 +12,7 @@ const MeetBaraka = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <section className="white-background py-5  ">
+    <section className="meet white-background py-5  ">
       <div className="container-80 mx-auto d-flex flex-column  justify-content-center align-items-center">
         <h2>
           <span>{t("meet.title_1")}</span>
@@ -22,7 +22,7 @@ const MeetBaraka = () => {
           {t("meet.paragraph")}
         </p>
 
-        <div className=" value-first-section  ">
+        <div className="meet-cards value-first-section  ">
           <div className="row  mx-auto  justify-content-between   align-items-center ">
             <div className=" mx-1 my-2 mx-auto col-md-3  col-sm-5 meet-card rounded-1 white-background  p-0 rounded-1  shadow-card  ">
               <div className="w-40">

@@ -14,7 +14,10 @@ const Services = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <section className="section services mx-auto orange-background py-5 two-sections">
+    <section
+      id="services"
+      className="section services mx-auto orange-background py-5 two-sections"
+    >
       <div className="container-80 row mx-auto d-md-flex  justify-content-center align-items-start">
         <div className="text-section mb-4 mb-md-0  order-md-2  text-start col-md-6    ">
           <h2 className="">
@@ -39,7 +42,7 @@ const Services = () => {
           <p class="paragraph-text"> {t("services.paragraph_2_1")} </p>
           <p class="small-size-text"> {t("services.paragraph_2_2")} </p>
         </div>
-        <div className=" image-section mb-4 mb-md-0 order-md-2 col-md-6  ">
+        <div className=" image-section mb-4 mb-md-0 order-md-2 col-md-6   ">
           <img src={Shape1} className="star-reverse" />
           <img src={Shape2} className="dots-reverse" />
           <div className="image-center">

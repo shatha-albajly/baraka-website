@@ -1,6 +1,8 @@
 import "./App.css";
-import "bootstrap/dist/js/bootstrap.bundle";
+// import "bootstrap/dist/js/bootstrap.min";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useTranslation } from "react-i18next";
+
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Home2 from "./components/home2/Home2";
@@ -27,6 +29,9 @@ import Distribution from "./components/distribution/Distribution";
 import SadaqaFund from "./components/sadaqaFund/SadaqaFund";
 
 function App() {
+  const { t, i18n } = useTranslation();
+  document.body.dir = i18n.dir();
+  console.log(document.body.dir);
   return (
     <div className="App">
       <Header />

@@ -11,7 +11,10 @@ const IslamicFinance = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <section className="section finance mx-auto orange-background  py-5 two-sections">
+    <section
+      id="finance"
+      className="section finance mx-auto orange-background  py-5 two-sections"
+    >
       <div className="container-80 row mx-auto d-md-flex  justify-content-center align-items-start">
         <div className="text-section mb-4 mb-md-0  order-md-1  text-start col-md-6    ">
           <h2 className="">

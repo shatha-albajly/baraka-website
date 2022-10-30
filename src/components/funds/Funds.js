@@ -40,7 +40,9 @@ const Funds = () => {
           <img src={Shape1} className="star-reverse" />
           <img src={Shape2} className="dots-reverse" />
           <div className="image-center">
-            <img src={Funds_EN} />
+            {i18n.language === "ar" && <img src={Funds_AR} />}
+
+            {i18n.language === "en" && <img src={Funds_EN} />}
           </div>
         </div>
       </div>

@@ -14,10 +14,12 @@ const ShariyaCommittee = () => {
   return (
     <section className="committee py-5">
       <div className="container-80 mx-auto d-flex flex-column  justify-content-center align-items-center">
-        <h2>
-          <span>{t("committee.title_1")}</span>
-          <span>{t("committee.title_2")}</span>
-        </h2>
+        <div>
+          <h2 className="text-center">
+            <span>{t("committee.title_1")}</span>
+            <span>{t("committee.title_2")}</span>
+          </h2>
+        </div>
         <p className="normal-paragraph container-60 text-center">
           {t("committee.paragraph")}
         </p>

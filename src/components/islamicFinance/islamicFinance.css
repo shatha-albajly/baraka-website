@@ -5,7 +5,7 @@
 
 .finance-video{
     height:219px;
-    width: 390px;
+    max-width: 390px;
 }
 
 

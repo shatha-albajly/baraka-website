@@ -1,10 +1,15 @@
 import React from "react";
 
-const Button = () => {
+const Button = (props) => {
+  const { text, color } = props;
   return (
-    <button type="button" class="btn btn-secondary rounded-0">
-      Secondary
-    </button>
+    <div>
+      {color === "orange" && (
+        <button type="button" className="btn orange-button rounded-0">
+          {text}
+        </button>
+      )}
+    </div>
   );
 };
 

@@ -13,10 +13,13 @@ const Ecosystem = () => {
   return (
     <section className="ecosystem orange-background py-5  ">
       <div className="container-80 mx-auto ">
-        <h2 className="d-flex  justify-content-center align-items-center">
-          <span>{t("ecosystem.title_1")}</span>
-          <span>{t("ecosystem.title_2")}</span>
+        <h2 className="d-flex text-center justify-content-center align-items-center">
+          <div>
+            <span>{t("ecosystem.title_1")}</span>
+            <span>{t("ecosystem.title_2")}</span>
+          </div>
         </h2>
+
         <div className=" row mx-auto justify-content-between align-items-center">
           <div className="mx-auto col-md-3  col-sm-5 m-1 p-1 img-card2 shadow-card white-background   d-flex flex-column justify-content-center align-items-center ">
             <img src={Ecosystem1} className="mw-100" />

@@ -14,7 +14,7 @@ const Lunchpad = () => {
   return (
     <section className="section lunchpad mx-auto orange-background py-5 two-sections">
       <div className="container-80 row mx-auto d-md-flex  justify-content-center align-items-start">
-        <div className="text-section mb-0 mb-md-4 order-md-1  text-start col-md-6    ">
+        <div className="text-section  mb-4 order-md-1  text-start col-md-6    ">
           <h2>
             <span>{t("launchpad.title_1")}</span>
             <span>{t("launchpad.title_2")}</span>

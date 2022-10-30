@@ -19,7 +19,7 @@ const OurValues = () => {
           <span>{t("values.title_2")}</span>
         </h2>
 
-        <div className=" value-first-section  ">
+        <div className=" value-first-section mb-5 ">
           <div className="row  mx-auto  justify-content-between  align-items-center ">
             <div className=" col-md-3 mx-auto col-sm-5 rounded-1 value-card shadow-card mx-1 my-2 d-flex flex-column justify-content-center align-items-center  ">
               <img src={Value1} className="" />

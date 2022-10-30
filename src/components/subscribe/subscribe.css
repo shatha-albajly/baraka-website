@@ -1,16 +1,4 @@
-/* 
 
-.subscribe-first{
-    flex-basis: 40%;
-
-    
-}
-
-.subscribe-second {
-    flex-basis: 60%;
-
-}
- */
 
  .subscribe nav li{
     font-weight: 500;
@@ -22,4 +10,12 @@
 .footer-logo{
     width: 200px;
     /* width: auto; */
+}
+
+.subscribe .nav-item{
+    max-width: 500px ;
+}
+
+.icon-footer{
+    width: 40px !important;
 }

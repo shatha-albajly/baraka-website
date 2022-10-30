@@ -1,3 +1,7 @@
 .exchange .img-card{
     height: auto;
 }
+
+.exchange .normal-paragraph{
+    margin-top: 0;
+}

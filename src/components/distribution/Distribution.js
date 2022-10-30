@@ -10,7 +10,7 @@ const Distribution = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <section className="section mx-auto py-5  two-sections">
+    <section className="section mx-auto py-5 distribution  two-sections ">
       <div className="container-80 row mx-auto d-md-flex  pt-3 justify-content-center align-items-start">
         <div className="text-section  order-md-1 text-start col-md-6">
           <h2>
@@ -99,15 +99,16 @@ const Distribution = () => {
           </li>
         </ul>
         <div>
-          <div className="d-flex align-items-center justify-content-start ">
-            {/* <FontAwesomeIcon className="orange-opacity" icon={faCoffee} /> */}
-            <InfoCircle size="32" color="#F8870D" variant="Bulk" />
+          <div className="d-flex  align-items-start justify-content-start ">
+            <InfoCircle
+              size="32"
+              color="#F8870D"
+              variant="Bulk"
+              className="icon"
+            />
 
-            <p className="tiny-text m-0 p-0 mx-1 fst-italic">
-              We have limited the maximum ownership amount of BARAKA coins per
-              person in order to avoid price manipulation and protect the
-              investment value for all coi owners. Larger transactions may be
-              accepted with special arrangement and a lock-up period.
+            <p className="tiny-text m-1 p-0  fst-italic">
+              {t("distribution.note")}
             </p>
           </div>
         </div>

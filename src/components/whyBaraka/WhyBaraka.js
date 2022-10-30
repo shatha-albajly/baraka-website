@@ -2,17 +2,14 @@ import React from "react";
 import "./whyBaraka.css";
 import { useTranslation } from "react-i18next";
 import CircleImg from "./circle.svg";
+import CircleImg_AR from "./circle_AR.svg";
 import WhyBarakaImg from "./whyBaraka.png";
 import Shape1 from "./shape1.svg";
 import Shape2 from "./shape2.svg";
 import { Global } from "iconsax-react";
 import { Bitcoin } from "iconsax-react";
-
 import { OceanProtocol } from "iconsax-react";
-// import Image1 from "./image 1.png";
-// import Image2 from "./image 2.png";
-// import Image3 from "./image 3.png";
-// import Image4 from "./image 4.png";
+
 const WhyBaraka = () => {
   const { t, i18n } = useTranslation();
 
@@ -50,8 +47,17 @@ const WhyBaraka = () => {
           </div>
         </div>
 
-        <div className=" order-md-3 mx-auto w-100">
-          <img className="  circle-shape mx-auto w-100  " src={CircleImg} />
+        <div className="mt-4 order-md-3 mx-auto w-100">
+          {i18n.language === "ar" && (
+            <img
+              className="  circle-shape mx-auto w-100  "
+              src={CircleImg_AR}
+            />
+          )}
+
+          {i18n.language === "en" && (
+            <img className="  circle-shape mx-auto w-100  " src={CircleImg} />
+          )}
         </div>
       </div>
     </section>

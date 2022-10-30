@@ -13,6 +13,20 @@
     font-weight: 500;
 }
 
+body{
+  overflow-x: hidden !important;
+}
+
+.orange-button {
+  width: 130px;
+  height: 40px;
+  box-shadow: -4px 4px 30px rgba(0, 0, 0, 0.1);
+
+  color: var(--primary-white) !important;
+  background-color: var(--primary-orange) !important;
+
+  border-radius: 0px !important;
+}
 /* ------------------ shadow ------------------- */
 
 .shadow-custom {
@@ -324,3 +338,27 @@ font-weight: 400;
  
 }
 
+
+
+@media (max-width: 991.98px) {
+  .image-center{
+
+  }
+}
+
+/* meduim */
+@media (max-width: 768px) {
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  .container-80 {
+    max-width: 90vw !important;
+  }
+
+    .container-70 {
+      max-width: 80vw !important;
+    }
+}

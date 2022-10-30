@@ -7,7 +7,10 @@ const Team = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <section className="team container-80  py-5 section mx-auto d-flex flex-column  justify-content-center align-items-center">
+    <section
+      id="team"
+      className="team container-80  py-5 section mx-auto d-flex flex-column  justify-content-center align-items-center"
+    >
       <h2>
         <span>{t("team.title_1")}</span>
         <span>{t("team.title_2")}</span>

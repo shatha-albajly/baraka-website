@@ -2,7 +2,8 @@
 "navbar":{
     "home":"Home",
     "about_us":"About Us",
-    "ecosystem":"Ecosystem",
+    "ecosystem":"Services",
+    "services":"Services",
     "tokenomics":"Tokenomics",
     "roadmap":"Roadmap",
     "our_team":"Our Team",
@@ -11,7 +12,7 @@
 },
 "home":{
     "title_1":"Baraka ",
-    "title_2":"Exchange",
+    "title_2":"Exchange ",
     "title_3":"The First Shariya Compliant Crypto Exchange",
     "paragraph":"Welcome to the world of Baraka.  Finally, an investment platform designed for the Muslim ummah to unlock a new world of investment opportunities. ",
     "button_1":"White Paper",
@@ -162,6 +163,7 @@
     "paragraph_2":"Our objective is to grow the  knowledge and beneﬁts of  blockchain, by providing a  holistic academy and a  launchpad to help projects  grow in to the blockchain  ecosystem."
 },
 "roadmap":{
+    "img":"roadmap",
     "title_1":"Road",
     "title_2":"map",
     "list_1_1":"Private Sale",
